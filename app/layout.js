@@ -1,7 +1,6 @@
+import Head from 'next/head'
 import './globals.css'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +10,42 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+            {/* <!-- title --> */}
+            <title>AVR Productions</title>
+            <meta charSet="utf-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+            <meta name="author" content="Varun Rakheja"/>
+            {/* <!-- description --> */}
+            <meta name="description" content="We are one of the leading companies providing Strategic Brand Activation Services. We bring to you the future of Experiential Marketing with our unique and thoughtful Brand Activation ideas and concepts. Our team of Experts are Highly Proficient with Immense Experience in Marketing and Advertising. We strive to introduce Novel Brand Activation Strategies that are Time-Bound and Goal-Oriented. Our interactive and planned activations always prove to be excellent crowd puller. We ensure to captivate the target audience and provide them with an Immersive Experience. At AVR, we focus on the Audience Experience with the Brand’s Frequency. Our motive is to utilize the power of Modern Tools and Marketing Mix to provide the desired limelight to your business."/>
+            
+            <meta name="keywords" content="Brand Manager, Corporate Event Planner, Retail Store Launches, Launch, Opening Ceremony, Ceremony, Wedding, Event Organizers in Punjab, Event Management Companies Punjab, Event Company  in Punjab, Best Event Planning in Punjab, Best Event Organizers in Punjab, Event Organizers India,event planner in Punjab, event management company in Punjab, event management services, event services, event management services in Punjab, event services in Punjab"/>
+            {/* <!-- favicon --> */}
+            <link rel="shortcut icon" href="/public/favicon.ico"/>
+            <link rel="apple-touch-icon" href="/public/apple-touch-icon.png"/>
+            {/* <!-- style sheets and font icons  --> */}
+            <link rel="stylesheet" type="text/css" href="css/bootsnav.css"/>
+            <link rel="stylesheet" type="text/css" href="css/font-icons.min.css"/>
+            <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css"/>
+            <link rel="stylesheet" type="text/css" href="css/style.css" />
+            <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+            <link href="https://db.onlinewebfonts.com/c/d440835ef404a78ae46096c6ce016ba3?family=Centaur+Regular" rel="stylesheet" type="text/css"/>
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+          
+      </head>
+      <body >{children}
+      {/* <!-- javascript --> */}
+          <script type="text/javascript" src="js/jquery.min.js"></script>
+          <script type="text/javascript" src="js/bootsnav.js"></script>
+          <script type="text/javascript" src="js/jquery.nav.js"></script>
+          <script type="text/javascript" src="js/hamburger-menu.js"></script>
+          <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+          {/* <!-- setting --> */}
+          <script type="text/javascript" src="js/main.js"></script>
+      </body>
     </html>
   )
 }
