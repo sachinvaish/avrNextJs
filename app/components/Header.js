@@ -15,14 +15,13 @@ export default function Header() {
 
   return (
     <header  >
-      <nav className="navbar navbar-default bootsnav navbar-top header-light-transparent background-transparent navbar-expand-lg on no-full">
+      <nav className="navbar navbar-default bootsnav navbar-top header-light-transparent  navbar-expand-lg">
         <div className="container-lg nav-header-container" >
           {/* start logo */}
           <div className="col-auto ps-0">
             <a href='#' onClick={reload} title="AVR Productions" >
               <img
                 src="images/logo.png"
-                data-at2x="images/logo@2x.png"
                 className="logo-dark default"
                 alt="AVR Productions"
                 style={{width:'auto',height:'50px',margin:'20px', marginLeft:'0'}}

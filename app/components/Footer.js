@@ -16,10 +16,8 @@ export default function Footer() {
             <div className="col-lg-4 col-md-2 text-center sm-margin-10px-bottom">
               <a href="#">
                 <img
-                  className=""
                   src="images/logo-white.png"
-                  data-at2x="images/logo-white@2x.png"
-                  alt="Pofo"
+                  alt="Avr Productions"
                   style={{width:'auto',height:'60px', marginLeft:'0'}}
                 />
               </a>
