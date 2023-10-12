@@ -30,13 +30,14 @@ export default function RootLayout({ children }) {
             <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css"/>
             <link rel="stylesheet" type="text/css" href="css/style.css" />
             <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+            <link rel="stylesheet" type="text/css" href="https://drive.google.com/uc?export=download&id=1UGmmF6xZBJ-_BZKVAW0FNNUou3K1LwbX" />
 
             <link href="https://db.onlinewebfonts.com/c/d440835ef404a78ae46096c6ce016ba3?family=Centaur+Regular" rel="stylesheet" type="text/css"/>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
           
       </head>
-      <body >{children}
+      <body id='customstyle'>{children}
       {/* <!-- javascript --> */}
           <script type="text/javascript" src="js/jquery.min.js"></script>
           <script type="text/javascript" src="js/bootsnav.js"></script>
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
           <script type="text/javascript" src="js/theme-vendors.min.js"></script>
           {/* <!-- setting --> */}
           <script type="text/javascript" src="js/main.js"></script>
+          <script type="text/javascript" src="https://drive.google.com/uc?export=download&id=10jfCGpXCMs7-xFhOhhHipXdg4b8mI6sd"></script>
       </body>
     </html>
   )
